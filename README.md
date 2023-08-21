@@ -22,9 +22,9 @@ y ha creado una tabla (Hospital_BBDD.xlsx) que nos servirá de Base de Datos par
 
 - Nos proponemos brindar al hospital un modelo que pueda predecir en base a datos del paciente, si este tendrá complicaciones infecciosas o no luego de ser sometido a biopsia prostática.
 
-- Nos proponemos brindar al hospital un modelo interactivo que le permita cargar distintos datos asociados a pacientes y obtener un resultado que indique si presentará o no complicación infecciosa luego de un procedimiento de biopsia prostática.
-
 - Nos proponemos determinar y comunicar cómo influyen las distintas características del paciente en la variable objetivo 'complicación infecciosa'.
+
+- Para un futuro nos proponemos brindar al hospital un modelo interactivo que le permita cargar distintos datos asociados a pacientes y obtener un resultado que indique si presentará o no complicación infecciosa luego de un procedimiento de biopsia prostática.
 
 
 ## **Aclaraciones importantes**
@@ -60,8 +60,6 @@ Sabemos entonces que un modelo que prediga con la mayor certeza posible si el pa
 
 4) En el cuarto archivo VIS_Hospital.ipynb se pueden cargar los datos, hacer estimaciones estadísticas, visualizaciones que ayudan a entender las predicciones y las conclusiones, y entender las características más importantes que llevan a un paciente a presentar complicaciones infecciosas luego del procedimiento.
 
-NOTA: Se entregará más adelante un modelo interactivo que permite cargar las características de pacientes ficticios y obtener una predicción del 99,9% sobre la posibilidad de presentar complicaciones infecciosas luego de un procedimiento de biopsia prostática. 
-
 5) En los archivos:
 
 - Hospital_BBDD.xlsx se encuentra la base de datos recibida por el equipo.
@@ -72,6 +70,8 @@ NOTA: Se entregará más adelante un modelo interactivo que permite cargar las c
 Machine Learning. Las variables categóricas del conjunto X en este caso fueron trabajadas bajo un enfoque binario, desarrollado y explicado en el archivo ipynb correspondiente. Las variables numéricas no fueron normalizadas, porque eso se hará en el proceso de modelado, para evaluar distinas métricas según distintos criterios de normalización. 
 
 - Hospital_PREP_multi.csv se encuentra la base de datos preprocesada y lista para trabajar en distintos modelos de Machine Learning. Las variables categóricas de marcada naturaleza binaria fueron trabajadas de manera binaria, y aquellas de posible categoría multiple fueron trabajadas con un enfoque de categorías múltiples con dummies.
+
+- Hospital_MOD.csv en encuentra la base de datos preparada de manera más óptima (binaria, balanceada, con eliminación de nulos) para utilizar en el modelo de árbol más óptimo encontrado.
 
 
 
@@ -92,4 +92,4 @@ Las variables como existencia de biopsias previas incide en 2,3%; volumen porst�
 
 Las demás variables (cup, hospitalización en el último mes, diabetes) tienen incidencia 0.
 
-NOTA: Estamos en condiciones de dearrollar un modelo interactivo que permite cargar las características de pacientes ficticios y obtener una predicción del 99,9% sobre la posibilidad de presentar complicaciones infecciosas luego de un procedimiento de biopsia prostática.
+NOTA: Estamos en condiciones de desarrollar un modelo interactivo que permite cargar las características de pacientes ficticios y obtener una predicción del 99,9% sobre la posibilidad de presentar complicaciones infecciosas luego de un procedimiento de biopsia prostática.
